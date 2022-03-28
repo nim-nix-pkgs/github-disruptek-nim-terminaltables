@@ -7,13 +7,13 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."github-disruptek-nim-terminaltables-master".dir   = "master";
-  inputs."github-disruptek-nim-terminaltables-master".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-nim-terminaltables-master".ref   = "master";
-  inputs."github-disruptek-nim-terminaltables-master".repo  = "github-disruptek-nim-terminaltables";
-  inputs."github-disruptek-nim-terminaltables-master".type  = "github";
-  inputs."github-disruptek-nim-terminaltables-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-nim-terminaltables-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."terminaltables-master".dir   = "master";
+  inputs."terminaltables-master".owner = "nim-nix-pkgs";
+  inputs."terminaltables-master".ref   = "master";
+  inputs."terminaltables-master".repo  = "terminaltables";
+  inputs."terminaltables-master".type  = "github";
+  inputs."terminaltables-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."terminaltables-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
