@@ -6,8 +6,39 @@
   "tags": [],
   "url": "https://github.com/disruptek/nim-terminaltables",
   "refs": [
-    "fatal: unable to access 'https://github.com/disruptek/nim-terminaltables/': Failed to connect to github.com port 443 after 131063 ms: Network is unreachable",
+    "refs/heads/findingsyms",
+    "refs/heads/master",
+    "refs/heads/nim111",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "terminaltables",
+      "version": "0.1.1",
+      "author": "xmonader",
+      "desc": "terminal tables",
+      "license": "BSD-3-Clause",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.19.4",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.19.4"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
